@@ -1,0 +1,1839 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.16
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.3 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:695: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\Buzz\\Downloads\\buzzboard-83(3).json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -5.8, "y": -6.8, "orientation": -90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+WARNING: key_placer.py:136: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:143: Switches by nets: {}
+DEBUG: key_placer.py:147: Diodes by switch: {'MX79': ['D79'], 'MX1': ['D1'], 'MX75': ['D75'], 'MX14': ['D14'], 'MX15': ['D15'], 'MX62': ['D62'], 'MX71': ['D71'], 'MX46': ['D46'], 'MX47': ['D47'], 'MX70': ['D70'], 'MX17': ['D17'], 'MX48': ['D48'], 'MX39': ['D39'], 'MX60': ['D60'], 'MX38': ['D38'], 'MX32': ['D32'], 'MX42': ['D42'], 'MX9': ['D9'], 'MX55': ['D55'], 'MX81': ['D81'], 'MX19': ['D19'], 'MX66': ['D66'], 'MX51': ['D51'], 'MX67': ['D67'], 'MX45': ['D45'], 'MX13': ['D13'], 'MX37': ['D37'], 'MX31': ['D31'], 'MX8': ['D8'], 'MX25': ['D25'], 'MX20': ['D20'], 'MX59': ['D59'], 'MX73': ['D73'], 'MX12': ['D12'], 'MX80': ['D80'], 'MX63': ['D63'], 'MX76': ['D76'], 'MX78': ['D78'], 'MX3': ['D3'], 'MX49': ['D49'], 'MX4': ['D4'], 'MX5': ['D5'], 'MX18': ['D18'], 'MX21': ['D21'], 'MX24': ['D24'], 'MX16': ['D16'], 'MX22': ['D22'], 'MX40': ['D40'], 'MX28': ['D28'], 'MX44': ['D44'], 'MX43': ['D43'], 'MX7': ['D7'], 'MX34': ['D34'], 'MX29': ['D29'], 'MX72': ['D72'], 'MX26': ['D26'], 'MX23': ['D23'], 'MX57': ['D57'], 'MX83': ['D83'], 'MX58': ['D58'], 'MX10': ['D10'], 'MX36': ['D36'], 'MX41': ['D41'], 'MX2': ['D2'], 'MX68': ['D68'], 'MX61': ['D61'], 'MX30': ['D30'], 'MX50': ['D50'], 'MX54': ['D54'], 'MX77': ['D77'], 'MX53': ['D53'], 'MX64': ['D64'], 'MX82': ['D82'], 'MX11': ['D11'], 'MX35': ['D35'], 'MX74': ['D74'], 'MX27': ['D27'], 'MX52': ['D52'], 'MX33': ['D33'], 'MX6': ['D6'], 'MX65': ['D65'], 'MX56': ['D56'], 'MX69': ['D69']}
+INFO: kle_serial.py:1031: User layout: [{'name': 'BuzzBoard 83', 'author': 'Betzalel Lewis'}, [{'c': '#51c0dd', 'sm': 'cherry', 'sb': 'gateron', 'st': 'KS-3-Yellow', 'a': 0}, 'esc\n\n\n\n~\n`', {'x': 1, 'c': '#afb0b1', 'a': 4}, 'F1\n\n\n\nF13', 'F2\n\n\n\nF14', 'F3\n\n\n\nF15', 'F4\n\n\n\nF16', {'x': 0.25}, 'F5\n\n\n\nF17', 'F6\n\n\n\nF18', 'F7\n\n\n\nF19', 'F8\n\n\n\nF20', {'x': 0.25}, 'F9\n\n\n\nF21', 'F10\n\n\n\nF22', 'F11\n\n\n\nF23', 'F12\n\n\n\nF24', {'x': 1}, 'num\n\n\n\n\n\nlock', 'scroll\n\n\n\n\n\nlock', {'x': 0.25, 'a': 7, 'f': 9}, "<i class='fa fa-dot-circle-o'></i>"], [{'y': 0.25, 'a': 4, 'f': 3}, 'tab', {'c': '#cccccc'}, 'q', 'w', 'e', 'r', 't', {'x': 0.25}, '7\n\n\n\nhome', '8\n\n\n(', '9\n\n\n)\npage up', {'c': '#afb0b1'}, '/', {'x': 0.25, 'c': '#cccccc'}, 'y', 'u', 'i', 'o', 'p', '{\n[', '}\n]'], [{'c': '#afb0b1'}, 'back\n\n\n\ndel\n\nspace', {'c': '#cccccc'}, 'a', 's', 'd', {'n': True}, 'f', 'g', {'x': 0.25}, '4\n\n\n$', '5\n\n\n%', '6\n\n\n^\n\n\n\n\n\n\n\u200e\u200e', {'c': '#afb0b1'}, '*', {'x': 0.25, 'c': '#cccccc'}, 'h', {'n': True}, 'j', 'k', 'l', ':\n;', '"\n\'', '|\n\\'], [{'c': '#afb0b1'}, 'shift\n\n\n\ncaps', {'c': '#cccccc'}, 'z\n\n\n\nprev', 'x\n\n\n\ntg play', 'c\n\n\n\nnext', 'v\n\n\n\nprnt scr', 'b', {'x': 0.25}, '1\n\n\n!\nend', '2\n\n\n@', '3\n\n\n#\npage dn', {'c': '#afb0b1'}, '_\n-', {'x': 0.25, 'c': '#cccccc'}, 'n', 'm', '<\n,', '>\n.', '?\n/', {'c': '#afb0b1'}, 'shift'], [{'y': -0.75, 'x': 16.75}, '↑'], [{'y': -0.25}, 'ctrl', 'super', 'alt', 'fn', {'x': 0.25, 'c': '#cccccc', 'a': 7, 'w': 1.75}, '', {'x': 0.25, 'a': 4}, '0\n\n\n\nins', '.', {'c': '#afb0b1'}, 'enter', '+', {'x': 0.25, 'c': '#cccccc', 'a': 7, 'w': 1.75}, '', {'x': 0.25, 'c': '#afb0b1', 'a': 4, 'l': True}, 'menu', 'alt', 'ctrl'], [{'y': -0.75, 'x': 15.75}, '←', '↓', '→']]
+DEBUG: key_placer.py:755: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:773: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1125: Layout with: x_ortholinear_keys=27, y_ortholinear_keys=16, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1150: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:119: Setting MX1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX3 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX6 footprint position: (157162500, 38100000)
+DEBUG: board_modifier.py:119: Setting MX7 footprint position: (176212500, 38100000)
+DEBUG: board_modifier.py:119: Setting MX8 footprint position: (195262500, 38100000)
+DEBUG: board_modifier.py:119: Setting MX9 footprint position: (214312500, 38100000)
+DEBUG: board_modifier.py:119: Setting MX10 footprint position: (238125000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX11 footprint position: (257175000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX12 footprint position: (276225000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX13 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX14 footprint position: (333375000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX15 footprint position: (352425000, 38100000)
+DEBUG: board_modifier.py:119: Setting MX16 footprint position: (376237500, 38100000)
+DEBUG: board_modifier.py:119: Setting MX17 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX18 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX19 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX20 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX21 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX22 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX23 footprint position: (157162500, 61912500)
+DEBUG: board_modifier.py:119: Setting MX24 footprint position: (176212500, 61912500)
+DEBUG: board_modifier.py:119: Setting MX25 footprint position: (195262500, 61912500)
+DEBUG: board_modifier.py:119: Setting MX26 footprint position: (214312500, 61912500)
+DEBUG: board_modifier.py:119: Setting MX27 footprint position: (238125000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX28 footprint position: (257175000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX29 footprint position: (276225000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX30 footprint position: (295275000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX31 footprint position: (314325000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX32 footprint position: (333375000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX33 footprint position: (352425000, 61912500)
+DEBUG: board_modifier.py:119: Setting MX34 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX35 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX36 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX37 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX38 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX39 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX40 footprint position: (157162500, 80962500)
+DEBUG: board_modifier.py:119: Setting MX41 footprint position: (176212500, 80962500)
+DEBUG: board_modifier.py:119: Setting MX42 footprint position: (195262500, 80962500)
+DEBUG: board_modifier.py:119: Setting MX43 footprint position: (214312500, 80962500)
+DEBUG: board_modifier.py:119: Setting MX44 footprint position: (238125000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX45 footprint position: (257175000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX46 footprint position: (276225000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX47 footprint position: (295275000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX48 footprint position: (314325000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX49 footprint position: (333375000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX50 footprint position: (352425000, 80962500)
+DEBUG: board_modifier.py:119: Setting MX51 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX52 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX53 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX54 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX55 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX56 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX57 footprint position: (157162500, 100012500)
+DEBUG: board_modifier.py:119: Setting MX58 footprint position: (176212500, 100012500)
+DEBUG: board_modifier.py:119: Setting MX59 footprint position: (195262500, 100012500)
+DEBUG: board_modifier.py:119: Setting MX60 footprint position: (214312500, 100012500)
+DEBUG: board_modifier.py:119: Setting MX61 footprint position: (238125000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX62 footprint position: (257175000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX63 footprint position: (276225000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX64 footprint position: (295275000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX65 footprint position: (314325000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX66 footprint position: (333375000, 100012500)
+DEBUG: board_modifier.py:119: Setting MX67 footprint position: (357187500, 104775000)
+DEBUG: board_modifier.py:119: Setting MX68 footprint position: (38100000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX69 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX70 footprint position: (76200000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX71 footprint position: (95250000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX72 footprint position: (126206250, 119062500)
+DEBUG: board_modifier.py:119: Setting MX73 footprint position: (157162500, 119062500)
+DEBUG: board_modifier.py:119: Setting MX74 footprint position: (176212500, 119062500)
+DEBUG: board_modifier.py:119: Setting MX75 footprint position: (195262500, 119062500)
+DEBUG: board_modifier.py:119: Setting MX76 footprint position: (214312500, 119062500)
+DEBUG: board_modifier.py:119: Setting MX77 footprint position: (245268750, 119062500)
+DEBUG: board_modifier.py:119: Setting MX78 footprint position: (276225000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX79 footprint position: (295275000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX80 footprint position: (314325000, 119062500)
+DEBUG: board_modifier.py:119: Setting MX81 footprint position: (338137500, 123825000)
+DEBUG: board_modifier.py:119: Setting MX82 footprint position: (357187500, 123825000)
+DEBUG: board_modifier.py:119: Setting MX83 footprint position: (376237500, 123825000)
+INFO: key_placer.py:1173: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=-5.8, y=-6.8, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:132: Getting MX1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting D1 footprint position: (43899999, 44900000)
+DEBUG: board_modifier.py:132: Getting D1 footprint position: (43899999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting D2 footprint position: (81999999, 44900000)
+DEBUG: board_modifier.py:132: Getting D2 footprint position: (81999999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX3 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting D3 footprint position: (101049999, 44900000)
+DEBUG: board_modifier.py:132: Getting D3 footprint position: (101049999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:119: Setting D4 footprint position: (120099999, 44900000)
+DEBUG: board_modifier.py:132: Getting D4 footprint position: (120099999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:119: Setting D5 footprint position: (139149999, 44900000)
+DEBUG: board_modifier.py:132: Getting D5 footprint position: (139149999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX6 footprint position: (157162500, 38100000)
+DEBUG: board_modifier.py:119: Setting D6 footprint position: (162962499, 44900000)
+DEBUG: board_modifier.py:132: Getting D6 footprint position: (162962499, 44900000)
+DEBUG: board_modifier.py:132: Getting MX7 footprint position: (176212500, 38100000)
+DEBUG: board_modifier.py:119: Setting D7 footprint position: (182012499, 44900000)
+DEBUG: board_modifier.py:132: Getting D7 footprint position: (182012499, 44900000)
+DEBUG: board_modifier.py:132: Getting MX8 footprint position: (195262500, 38100000)
+DEBUG: board_modifier.py:119: Setting D8 footprint position: (201062499, 44900000)
+DEBUG: board_modifier.py:132: Getting D8 footprint position: (201062499, 44900000)
+DEBUG: board_modifier.py:132: Getting MX9 footprint position: (214312500, 38100000)
+DEBUG: board_modifier.py:119: Setting D9 footprint position: (220112499, 44900000)
+DEBUG: board_modifier.py:132: Getting D9 footprint position: (220112499, 44900000)
+DEBUG: board_modifier.py:132: Getting MX10 footprint position: (238125000, 38100000)
+DEBUG: board_modifier.py:119: Setting D10 footprint position: (243924999, 44900000)
+DEBUG: board_modifier.py:132: Getting D10 footprint position: (243924999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX11 footprint position: (257175000, 38100000)
+DEBUG: board_modifier.py:119: Setting D11 footprint position: (262974999, 44900000)
+DEBUG: board_modifier.py:132: Getting D11 footprint position: (262974999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX12 footprint position: (276225000, 38100000)
+DEBUG: board_modifier.py:119: Setting D12 footprint position: (282024999, 44900000)
+DEBUG: board_modifier.py:132: Getting D12 footprint position: (282024999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX13 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:119: Setting D13 footprint position: (301074999, 44900000)
+DEBUG: board_modifier.py:132: Getting D13 footprint position: (301074999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX14 footprint position: (333375000, 38100000)
+DEBUG: board_modifier.py:119: Setting D14 footprint position: (339174999, 44900000)
+DEBUG: board_modifier.py:132: Getting D14 footprint position: (339174999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX15 footprint position: (352425000, 38100000)
+DEBUG: board_modifier.py:119: Setting D15 footprint position: (358224999, 44900000)
+DEBUG: board_modifier.py:132: Getting D15 footprint position: (358224999, 44900000)
+DEBUG: board_modifier.py:132: Getting MX16 footprint position: (376237500, 38100000)
+DEBUG: board_modifier.py:119: Setting D16 footprint position: (382037499, 44900000)
+DEBUG: board_modifier.py:132: Getting D16 footprint position: (382037499, 44900000)
+DEBUG: board_modifier.py:132: Getting MX17 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:119: Setting D17 footprint position: (43899999, 68712500)
+DEBUG: board_modifier.py:132: Getting D17 footprint position: (43899999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX18 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:119: Setting D18 footprint position: (62949999, 68712500)
+DEBUG: board_modifier.py:132: Getting D18 footprint position: (62949999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX19 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:119: Setting D19 footprint position: (81999999, 68712500)
+DEBUG: board_modifier.py:132: Getting D19 footprint position: (81999999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX20 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:119: Setting D20 footprint position: (101049999, 68712500)
+DEBUG: board_modifier.py:132: Getting D20 footprint position: (101049999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX21 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:119: Setting D21 footprint position: (120099999, 68712500)
+DEBUG: board_modifier.py:132: Getting D21 footprint position: (120099999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX22 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:119: Setting D22 footprint position: (139149999, 68712500)
+DEBUG: board_modifier.py:132: Getting D22 footprint position: (139149999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX23 footprint position: (157162500, 61912500)
+DEBUG: board_modifier.py:119: Setting D23 footprint position: (162962499, 68712500)
+DEBUG: board_modifier.py:132: Getting D23 footprint position: (162962499, 68712500)
+DEBUG: board_modifier.py:132: Getting MX24 footprint position: (176212500, 61912500)
+DEBUG: board_modifier.py:119: Setting D24 footprint position: (182012499, 68712500)
+DEBUG: board_modifier.py:132: Getting D24 footprint position: (182012499, 68712500)
+DEBUG: board_modifier.py:132: Getting MX25 footprint position: (195262500, 61912500)
+DEBUG: board_modifier.py:119: Setting D25 footprint position: (201062499, 68712500)
+DEBUG: board_modifier.py:132: Getting D25 footprint position: (201062499, 68712500)
+DEBUG: board_modifier.py:132: Getting MX26 footprint position: (214312500, 61912500)
+DEBUG: board_modifier.py:119: Setting D26 footprint position: (220112499, 68712500)
+DEBUG: board_modifier.py:132: Getting D26 footprint position: (220112499, 68712500)
+DEBUG: board_modifier.py:132: Getting MX27 footprint position: (238125000, 61912500)
+DEBUG: board_modifier.py:119: Setting D27 footprint position: (243924999, 68712500)
+DEBUG: board_modifier.py:132: Getting D27 footprint position: (243924999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX28 footprint position: (257175000, 61912500)
+DEBUG: board_modifier.py:119: Setting D28 footprint position: (262974999, 68712500)
+DEBUG: board_modifier.py:132: Getting D28 footprint position: (262974999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX29 footprint position: (276225000, 61912500)
+DEBUG: board_modifier.py:119: Setting D29 footprint position: (282024999, 68712500)
+DEBUG: board_modifier.py:132: Getting D29 footprint position: (282024999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX30 footprint position: (295275000, 61912500)
+DEBUG: board_modifier.py:119: Setting D30 footprint position: (301074999, 68712500)
+DEBUG: board_modifier.py:132: Getting D30 footprint position: (301074999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX31 footprint position: (314325000, 61912500)
+DEBUG: board_modifier.py:119: Setting D31 footprint position: (320124999, 68712500)
+DEBUG: board_modifier.py:132: Getting D31 footprint position: (320124999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX32 footprint position: (333375000, 61912500)
+DEBUG: board_modifier.py:119: Setting D32 footprint position: (339174999, 68712500)
+DEBUG: board_modifier.py:132: Getting D32 footprint position: (339174999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX33 footprint position: (352425000, 61912500)
+DEBUG: board_modifier.py:119: Setting D33 footprint position: (358224999, 68712500)
+DEBUG: board_modifier.py:132: Getting D33 footprint position: (358224999, 68712500)
+DEBUG: board_modifier.py:132: Getting MX34 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:119: Setting D34 footprint position: (43899999, 87762500)
+DEBUG: board_modifier.py:132: Getting D34 footprint position: (43899999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX35 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:119: Setting D35 footprint position: (62949999, 87762500)
+DEBUG: board_modifier.py:132: Getting D35 footprint position: (62949999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX36 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:119: Setting D36 footprint position: (81999999, 87762500)
+DEBUG: board_modifier.py:132: Getting D36 footprint position: (81999999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX37 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:119: Setting D37 footprint position: (101049999, 87762500)
+DEBUG: board_modifier.py:132: Getting D37 footprint position: (101049999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX38 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:119: Setting D38 footprint position: (120099999, 87762500)
+DEBUG: board_modifier.py:132: Getting D38 footprint position: (120099999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX39 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:119: Setting D39 footprint position: (139149999, 87762500)
+DEBUG: board_modifier.py:132: Getting D39 footprint position: (139149999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX40 footprint position: (157162500, 80962500)
+DEBUG: board_modifier.py:119: Setting D40 footprint position: (162962499, 87762500)
+DEBUG: board_modifier.py:132: Getting D40 footprint position: (162962499, 87762500)
+DEBUG: board_modifier.py:132: Getting MX41 footprint position: (176212500, 80962500)
+DEBUG: board_modifier.py:119: Setting D41 footprint position: (182012499, 87762500)
+DEBUG: board_modifier.py:132: Getting D41 footprint position: (182012499, 87762500)
+DEBUG: board_modifier.py:132: Getting MX42 footprint position: (195262500, 80962500)
+DEBUG: board_modifier.py:119: Setting D42 footprint position: (201062499, 87762500)
+DEBUG: board_modifier.py:132: Getting D42 footprint position: (201062499, 87762500)
+DEBUG: board_modifier.py:132: Getting MX43 footprint position: (214312500, 80962500)
+DEBUG: board_modifier.py:119: Setting D43 footprint position: (220112499, 87762500)
+DEBUG: board_modifier.py:132: Getting D43 footprint position: (220112499, 87762500)
+DEBUG: board_modifier.py:132: Getting MX44 footprint position: (238125000, 80962500)
+DEBUG: board_modifier.py:119: Setting D44 footprint position: (243924999, 87762500)
+DEBUG: board_modifier.py:132: Getting D44 footprint position: (243924999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX45 footprint position: (257175000, 80962500)
+DEBUG: board_modifier.py:119: Setting D45 footprint position: (262974999, 87762500)
+DEBUG: board_modifier.py:132: Getting D45 footprint position: (262974999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX46 footprint position: (276225000, 80962500)
+DEBUG: board_modifier.py:119: Setting D46 footprint position: (282024999, 87762500)
+DEBUG: board_modifier.py:132: Getting D46 footprint position: (282024999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX47 footprint position: (295275000, 80962500)
+DEBUG: board_modifier.py:119: Setting D47 footprint position: (301074999, 87762500)
+DEBUG: board_modifier.py:132: Getting D47 footprint position: (301074999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX48 footprint position: (314325000, 80962500)
+DEBUG: board_modifier.py:119: Setting D48 footprint position: (320124999, 87762500)
+DEBUG: board_modifier.py:132: Getting D48 footprint position: (320124999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX49 footprint position: (333375000, 80962500)
+DEBUG: board_modifier.py:119: Setting D49 footprint position: (339174999, 87762500)
+DEBUG: board_modifier.py:132: Getting D49 footprint position: (339174999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX50 footprint position: (352425000, 80962500)
+DEBUG: board_modifier.py:119: Setting D50 footprint position: (358224999, 87762500)
+DEBUG: board_modifier.py:132: Getting D50 footprint position: (358224999, 87762500)
+DEBUG: board_modifier.py:132: Getting MX51 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:119: Setting D51 footprint position: (43899999, 106812500)
+DEBUG: board_modifier.py:132: Getting D51 footprint position: (43899999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX52 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:119: Setting D52 footprint position: (62949999, 106812500)
+DEBUG: board_modifier.py:132: Getting D52 footprint position: (62949999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX53 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:119: Setting D53 footprint position: (81999999, 106812500)
+DEBUG: board_modifier.py:132: Getting D53 footprint position: (81999999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX54 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:119: Setting D54 footprint position: (101049999, 106812500)
+DEBUG: board_modifier.py:132: Getting D54 footprint position: (101049999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX55 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:119: Setting D55 footprint position: (120099999, 106812500)
+DEBUG: board_modifier.py:132: Getting D55 footprint position: (120099999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX56 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:119: Setting D56 footprint position: (139149999, 106812500)
+DEBUG: board_modifier.py:132: Getting D56 footprint position: (139149999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX57 footprint position: (157162500, 100012500)
+DEBUG: board_modifier.py:119: Setting D57 footprint position: (162962499, 106812500)
+DEBUG: board_modifier.py:132: Getting D57 footprint position: (162962499, 106812500)
+DEBUG: board_modifier.py:132: Getting MX58 footprint position: (176212500, 100012500)
+DEBUG: board_modifier.py:119: Setting D58 footprint position: (182012499, 106812500)
+DEBUG: board_modifier.py:132: Getting D58 footprint position: (182012499, 106812500)
+DEBUG: board_modifier.py:132: Getting MX59 footprint position: (195262500, 100012500)
+DEBUG: board_modifier.py:119: Setting D59 footprint position: (201062499, 106812500)
+DEBUG: board_modifier.py:132: Getting D59 footprint position: (201062499, 106812500)
+DEBUG: board_modifier.py:132: Getting MX60 footprint position: (214312500, 100012500)
+DEBUG: board_modifier.py:119: Setting D60 footprint position: (220112499, 106812500)
+DEBUG: board_modifier.py:132: Getting D60 footprint position: (220112499, 106812500)
+DEBUG: board_modifier.py:132: Getting MX61 footprint position: (238125000, 100012500)
+DEBUG: board_modifier.py:119: Setting D61 footprint position: (243924999, 106812500)
+DEBUG: board_modifier.py:132: Getting D61 footprint position: (243924999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX62 footprint position: (257175000, 100012500)
+DEBUG: board_modifier.py:119: Setting D62 footprint position: (262974999, 106812500)
+DEBUG: board_modifier.py:132: Getting D62 footprint position: (262974999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX63 footprint position: (276225000, 100012500)
+DEBUG: board_modifier.py:119: Setting D63 footprint position: (282024999, 106812500)
+DEBUG: board_modifier.py:132: Getting D63 footprint position: (282024999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX64 footprint position: (295275000, 100012500)
+DEBUG: board_modifier.py:119: Setting D64 footprint position: (301074999, 106812500)
+DEBUG: board_modifier.py:132: Getting D64 footprint position: (301074999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX65 footprint position: (314325000, 100012500)
+DEBUG: board_modifier.py:119: Setting D65 footprint position: (320124999, 106812500)
+DEBUG: board_modifier.py:132: Getting D65 footprint position: (320124999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX66 footprint position: (333375000, 100012500)
+DEBUG: board_modifier.py:119: Setting D66 footprint position: (339174999, 106812500)
+DEBUG: board_modifier.py:132: Getting D66 footprint position: (339174999, 106812500)
+DEBUG: board_modifier.py:132: Getting MX67 footprint position: (357187500, 104775000)
+DEBUG: board_modifier.py:119: Setting D67 footprint position: (362987499, 111575000)
+DEBUG: board_modifier.py:132: Getting D67 footprint position: (362987499, 111575000)
+DEBUG: board_modifier.py:132: Getting MX68 footprint position: (38100000, 119062500)
+DEBUG: board_modifier.py:119: Setting D68 footprint position: (43899999, 125862500)
+DEBUG: board_modifier.py:132: Getting D68 footprint position: (43899999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX69 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:119: Setting D69 footprint position: (62949999, 125862500)
+DEBUG: board_modifier.py:132: Getting D69 footprint position: (62949999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX70 footprint position: (76200000, 119062500)
+DEBUG: board_modifier.py:119: Setting D70 footprint position: (81999999, 125862500)
+DEBUG: board_modifier.py:132: Getting D70 footprint position: (81999999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX71 footprint position: (95250000, 119062500)
+DEBUG: board_modifier.py:119: Setting D71 footprint position: (101049999, 125862500)
+DEBUG: board_modifier.py:132: Getting D71 footprint position: (101049999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX72 footprint position: (126206250, 119062500)
+DEBUG: board_modifier.py:119: Setting D72 footprint position: (132006249, 125862500)
+DEBUG: board_modifier.py:132: Getting D72 footprint position: (132006249, 125862500)
+DEBUG: board_modifier.py:132: Getting MX73 footprint position: (157162500, 119062500)
+DEBUG: board_modifier.py:119: Setting D73 footprint position: (162962499, 125862500)
+DEBUG: board_modifier.py:132: Getting D73 footprint position: (162962499, 125862500)
+DEBUG: board_modifier.py:132: Getting MX74 footprint position: (176212500, 119062500)
+DEBUG: board_modifier.py:119: Setting D74 footprint position: (182012499, 125862500)
+DEBUG: board_modifier.py:132: Getting D74 footprint position: (182012499, 125862500)
+DEBUG: board_modifier.py:132: Getting MX75 footprint position: (195262500, 119062500)
+DEBUG: board_modifier.py:119: Setting D75 footprint position: (201062499, 125862500)
+DEBUG: board_modifier.py:132: Getting D75 footprint position: (201062499, 125862500)
+DEBUG: board_modifier.py:132: Getting MX76 footprint position: (214312500, 119062500)
+DEBUG: board_modifier.py:119: Setting D76 footprint position: (220112499, 125862500)
+DEBUG: board_modifier.py:132: Getting D76 footprint position: (220112499, 125862500)
+DEBUG: board_modifier.py:132: Getting MX77 footprint position: (245268750, 119062500)
+DEBUG: board_modifier.py:119: Setting D77 footprint position: (251068749, 125862500)
+DEBUG: board_modifier.py:132: Getting D77 footprint position: (251068749, 125862500)
+DEBUG: board_modifier.py:132: Getting MX78 footprint position: (276225000, 119062500)
+DEBUG: board_modifier.py:119: Setting D78 footprint position: (282024999, 125862500)
+DEBUG: board_modifier.py:132: Getting D78 footprint position: (282024999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX79 footprint position: (295275000, 119062500)
+DEBUG: board_modifier.py:119: Setting D79 footprint position: (301074999, 125862500)
+DEBUG: board_modifier.py:132: Getting D79 footprint position: (301074999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX80 footprint position: (314325000, 119062500)
+DEBUG: board_modifier.py:119: Setting D80 footprint position: (320124999, 125862500)
+DEBUG: board_modifier.py:132: Getting D80 footprint position: (320124999, 125862500)
+DEBUG: board_modifier.py:132: Getting MX81 footprint position: (338137500, 123825000)
+DEBUG: board_modifier.py:119: Setting D81 footprint position: (343937499, 130625000)
+DEBUG: board_modifier.py:132: Getting D81 footprint position: (343937499, 130625000)
+DEBUG: board_modifier.py:132: Getting MX82 footprint position: (357187500, 123825000)
+DEBUG: board_modifier.py:119: Setting D82 footprint position: (362987499, 130625000)
+DEBUG: board_modifier.py:132: Getting D82 footprint position: (362987499, 130625000)
+DEBUG: board_modifier.py:132: Getting MX83 footprint position: (376237500, 123825000)
+DEBUG: board_modifier.py:119: Setting D83 footprint position: (382037499, 130625000)
+DEBUG: board_modifier.py:132: Getting D83 footprint position: (382037499, 130625000)
+DEBUG: key_placer.py:928: Placing additional elements for MX73
+DEBUG: board_modifier.py:132: Getting MX73 footprint position: (157162500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST73 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX69
+DEBUG: board_modifier.py:132: Getting MX69 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST69 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX41
+DEBUG: board_modifier.py:132: Getting MX41 footprint position: (176212500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX35
+DEBUG: board_modifier.py:132: Getting MX35 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX49
+DEBUG: board_modifier.py:132: Getting MX49 footprint position: (333375000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX66
+DEBUG: board_modifier.py:132: Getting MX66 footprint position: (333375000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST66 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX10
+DEBUG: board_modifier.py:132: Getting MX10 footprint position: (238125000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX28
+DEBUG: board_modifier.py:132: Getting MX28 footprint position: (257175000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX70
+DEBUG: board_modifier.py:132: Getting MX70 footprint position: (76200000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST70 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX57
+DEBUG: board_modifier.py:132: Getting MX57 footprint position: (157162500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST57 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX71
+DEBUG: board_modifier.py:132: Getting MX71 footprint position: (95250000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST71 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX23
+DEBUG: board_modifier.py:132: Getting MX23 footprint position: (157162500, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX63
+DEBUG: board_modifier.py:132: Getting MX63 footprint position: (276225000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST63 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX64
+DEBUG: board_modifier.py:132: Getting MX64 footprint position: (295275000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST64 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX72
+DEBUG: board_modifier.py:132: Getting MX72 footprint position: (126206250, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST72 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX33
+DEBUG: board_modifier.py:132: Getting MX33 footprint position: (352425000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX19
+DEBUG: board_modifier.py:132: Getting MX19 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX76
+DEBUG: board_modifier.py:132: Getting MX76 footprint position: (214312500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST76 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX3
+DEBUG: board_modifier.py:132: Getting MX3 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX75
+DEBUG: board_modifier.py:132: Getting MX75 footprint position: (195262500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST75 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX78
+DEBUG: board_modifier.py:132: Getting MX78 footprint position: (276225000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST78 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX14
+DEBUG: board_modifier.py:132: Getting MX14 footprint position: (333375000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX42
+DEBUG: board_modifier.py:132: Getting MX42 footprint position: (195262500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX52
+DEBUG: board_modifier.py:132: Getting MX52 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST52 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX58
+DEBUG: board_modifier.py:132: Getting MX58 footprint position: (176212500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST58 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX38
+DEBUG: board_modifier.py:132: Getting MX38 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX79
+DEBUG: board_modifier.py:132: Getting MX79 footprint position: (295275000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST79 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX1
+DEBUG: board_modifier.py:132: Getting MX1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX53
+DEBUG: board_modifier.py:132: Getting MX53 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST53 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX80
+DEBUG: board_modifier.py:132: Getting MX80 footprint position: (314325000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST80 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX24
+DEBUG: board_modifier.py:132: Getting MX24 footprint position: (176212500, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX43
+DEBUG: board_modifier.py:132: Getting MX43 footprint position: (214312500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX65
+DEBUG: board_modifier.py:132: Getting MX65 footprint position: (314325000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST65 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX44
+DEBUG: board_modifier.py:132: Getting MX44 footprint position: (238125000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX30
+DEBUG: board_modifier.py:132: Getting MX30 footprint position: (295275000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX16
+DEBUG: board_modifier.py:132: Getting MX16 footprint position: (376237500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX6
+DEBUG: board_modifier.py:132: Getting MX6 footprint position: (157162500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX37
+DEBUG: board_modifier.py:132: Getting MX37 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX60
+DEBUG: board_modifier.py:132: Getting MX60 footprint position: (214312500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST60 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX45
+DEBUG: board_modifier.py:132: Getting MX45 footprint position: (257175000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX29
+DEBUG: board_modifier.py:132: Getting MX29 footprint position: (276225000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX15
+DEBUG: board_modifier.py:132: Getting MX15 footprint position: (352425000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX46
+DEBUG: board_modifier.py:132: Getting MX46 footprint position: (276225000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX67
+DEBUG: board_modifier.py:132: Getting MX67 footprint position: (357187500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST67 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX20
+DEBUG: board_modifier.py:132: Getting MX20 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX68
+DEBUG: board_modifier.py:132: Getting MX68 footprint position: (38100000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST68 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX18
+DEBUG: board_modifier.py:132: Getting MX18 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX26
+DEBUG: board_modifier.py:132: Getting MX26 footprint position: (214312500, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX7
+DEBUG: board_modifier.py:132: Getting MX7 footprint position: (176212500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX54
+DEBUG: board_modifier.py:132: Getting MX54 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST54 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX21
+DEBUG: board_modifier.py:132: Getting MX21 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX59
+DEBUG: board_modifier.py:132: Getting MX59 footprint position: (195262500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST59 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX22
+DEBUG: board_modifier.py:132: Getting MX22 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX82
+DEBUG: board_modifier.py:132: Getting MX82 footprint position: (357187500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST82 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX51
+DEBUG: board_modifier.py:132: Getting MX51 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST51 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX17
+DEBUG: board_modifier.py:132: Getting MX17 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX62
+DEBUG: board_modifier.py:132: Getting MX62 footprint position: (257175000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST62 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX9
+DEBUG: board_modifier.py:132: Getting MX9 footprint position: (214312500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX83
+DEBUG: board_modifier.py:132: Getting MX83 footprint position: (376237500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST83 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX48
+DEBUG: board_modifier.py:132: Getting MX48 footprint position: (314325000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX27
+DEBUG: board_modifier.py:132: Getting MX27 footprint position: (238125000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX32
+DEBUG: board_modifier.py:132: Getting MX32 footprint position: (333375000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX25
+DEBUG: board_modifier.py:132: Getting MX25 footprint position: (195262500, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX77
+DEBUG: board_modifier.py:132: Getting MX77 footprint position: (245268750, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST77 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX4
+DEBUG: board_modifier.py:132: Getting MX4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX31
+DEBUG: board_modifier.py:132: Getting MX31 footprint position: (314325000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX40
+DEBUG: board_modifier.py:132: Getting MX40 footprint position: (157162500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX74
+DEBUG: board_modifier.py:132: Getting MX74 footprint position: (176212500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST74 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX36
+DEBUG: board_modifier.py:132: Getting MX36 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX12
+DEBUG: board_modifier.py:132: Getting MX12 footprint position: (276225000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX2
+DEBUG: board_modifier.py:132: Getting MX2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX55
+DEBUG: board_modifier.py:132: Getting MX55 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST55 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX39
+DEBUG: board_modifier.py:132: Getting MX39 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX47
+DEBUG: board_modifier.py:132: Getting MX47 footprint position: (295275000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX11
+DEBUG: board_modifier.py:132: Getting MX11 footprint position: (257175000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX8
+DEBUG: board_modifier.py:132: Getting MX8 footprint position: (195262500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX81
+DEBUG: board_modifier.py:132: Getting MX81 footprint position: (338137500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST81 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX5
+DEBUG: board_modifier.py:132: Getting MX5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX34
+DEBUG: board_modifier.py:132: Getting MX34 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX61
+DEBUG: board_modifier.py:132: Getting MX61 footprint position: (238125000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST61 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX13
+DEBUG: board_modifier.py:132: Getting MX13 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX56
+DEBUG: board_modifier.py:132: Getting MX56 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST56 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for MX50
+DEBUG: board_modifier.py:132: Getting MX50 footprint position: (352425000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST50 footprint in H:\electronics\pcbs\BuzzBoard\83\v2\BuzzBoard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:483: Routing MX73 with D73
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX73:2' at (154622500, 124142500) with pad 'D73:2' at (162962499, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(154622500, 124142500), (162892499, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(162892499, 124142500), (162962499, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX69 with D69
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX69:2' at (54610000, 124142500) with pad 'D69:2' at (62949999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(54610000, 124142500), (62879999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(62879999, 124142500), (62949999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX41 with D41
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX41:2' at (173672500, 86042500) with pad 'D41:2' at (182012499, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(173672500, 86042500), (181942499, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(181942499, 86042500), (182012499, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX35 with D35
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX35:2' at (54610000, 86042500) with pad 'D35:2' at (62949999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(54610000, 86042500), (62879999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(62879999, 86042500), (62949999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX49 with D49
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX49:2' at (330835000, 86042500) with pad 'D49:2' at (339174999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(330835000, 86042500), (339104999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(339104999, 86042500), (339174999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX66 with D66
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX66:2' at (330835000, 105092500) with pad 'D66:2' at (339174999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(330835000, 105092500), (339104999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(339104999, 105092500), (339174999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX10 with D10
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX10:2' at (235585000, 43180000) with pad 'D10:2' at (243924999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(235585000, 43180000), (243854999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(243854999, 43180000), (243924999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX28 with D28
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX28:2' at (254635000, 66992500) with pad 'D28:2' at (262974999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(254635000, 66992500), (262904999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(262904999, 66992500), (262974999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX70 with D70
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX70:2' at (73660000, 124142500) with pad 'D70:2' at (81999999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(73660000, 124142500), (81929999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(81929999, 124142500), (81999999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX57 with D57
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX57:2' at (154622500, 105092500) with pad 'D57:2' at (162962499, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(154622500, 105092500), (162892499, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(162892499, 105092500), (162962499, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX71 with D71
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX71:2' at (92710000, 124142500) with pad 'D71:2' at (101049999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(92710000, 124142500), (100979999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(100979999, 124142500), (101049999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX23 with D23
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX23:2' at (154622500, 66992500) with pad 'D23:2' at (162962499, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(154622500, 66992500), (162892499, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(162892499, 66992500), (162962499, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX63 with D63
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX63:2' at (273685000, 105092500) with pad 'D63:2' at (282024999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(273685000, 105092500), (281954999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(281954999, 105092500), (282024999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX64 with D64
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX64:2' at (292735000, 105092500) with pad 'D64:2' at (301074999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(292735000, 105092500), (301004999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(301004999, 105092500), (301074999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX72 with D72
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX72:2' at (123666250, 124142500) with pad 'D72:2' at (132006249, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(123666250, 124142500), (131936249, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(131936249, 124142500), (132006249, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX33 with D33
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX33:2' at (349885000, 66992500) with pad 'D33:2' at (358224999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(349885000, 66992500), (358154999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(358154999, 66992500), (358224999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX19 with D19
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX19:2' at (73660000, 66992500) with pad 'D19:2' at (81999999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(73660000, 66992500), (81929999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(81929999, 66992500), (81999999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX76 with D76
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX76:2' at (211772500, 124142500) with pad 'D76:2' at (220112499, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(211772500, 124142500), (220042499, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(220042499, 124142500), (220112499, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX3 with D3
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX3:2' at (92710000, 43180000) with pad 'D3:2' at (101049999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(92710000, 43180000), (100979999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(100979999, 43180000), (101049999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX75 with D75
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX75:2' at (192722500, 124142500) with pad 'D75:2' at (201062499, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(192722500, 124142500), (200992499, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(200992499, 124142500), (201062499, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX78 with D78
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX78:2' at (273685000, 124142500) with pad 'D78:2' at (282024999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(273685000, 124142500), (281954999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(281954999, 124142500), (282024999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX14 with D14
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX14:2' at (330835000, 43180000) with pad 'D14:2' at (339174999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(330835000, 43180000), (339104999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(339104999, 43180000), (339174999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX42 with D42
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX42:2' at (192722500, 86042500) with pad 'D42:2' at (201062499, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(192722500, 86042500), (200992499, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(200992499, 86042500), (201062499, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX52 with D52
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX52:2' at (54610000, 105092500) with pad 'D52:2' at (62949999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(54610000, 105092500), (62879999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(62879999, 105092500), (62949999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX58 with D58
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX58:2' at (173672500, 105092500) with pad 'D58:2' at (182012499, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(173672500, 105092500), (181942499, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(181942499, 105092500), (182012499, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX38 with D38
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX38:2' at (111760000, 86042500) with pad 'D38:2' at (120099999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(111760000, 86042500), (120029999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(120029999, 86042500), (120099999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX79 with D79
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX79:2' at (292735000, 124142500) with pad 'D79:2' at (301074999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(292735000, 124142500), (301004999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(301004999, 124142500), (301074999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX1 with D1
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX1:2' at (35560000, 43180000) with pad 'D1:2' at (43899999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(35560000, 43180000), (43829999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(43829999, 43180000), (43899999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX53 with D53
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX53:2' at (73660000, 105092500) with pad 'D53:2' at (81999999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(73660000, 105092500), (81929999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(81929999, 105092500), (81999999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX80 with D80
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX80:2' at (311785000, 124142500) with pad 'D80:2' at (320124999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(311785000, 124142500), (320054999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(320054999, 124142500), (320124999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX24 with D24
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX24:2' at (173672500, 66992500) with pad 'D24:2' at (182012499, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(173672500, 66992500), (181942499, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(181942499, 66992500), (182012499, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX43 with D43
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX43:2' at (211772500, 86042500) with pad 'D43:2' at (220112499, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(211772500, 86042500), (220042499, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(220042499, 86042500), (220112499, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX65 with D65
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX65:2' at (311785000, 105092500) with pad 'D65:2' at (320124999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(311785000, 105092500), (320054999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(320054999, 105092500), (320124999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX44 with D44
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX44:2' at (235585000, 86042500) with pad 'D44:2' at (243924999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(235585000, 86042500), (243854999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(243854999, 86042500), (243924999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX30 with D30
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX30:2' at (292735000, 66992500) with pad 'D30:2' at (301074999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(292735000, 66992500), (301004999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(301004999, 66992500), (301074999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX16 with D16
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX16:S2' at (361737500, 38100000) with pad 'D16:2' at (382037499, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(361737500, 38100000), (376887499, 38100000)]
+DEBUG: board_modifier.py:504: Could not add track segment due to detected collision
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(361737500, 38100000), (366887500, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(366887500, 43250000), (382037499, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX6 with D6
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX6:2' at (154622500, 43180000) with pad 'D6:2' at (162962499, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(154622500, 43180000), (162892499, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(162892499, 43180000), (162962499, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX37 with D37
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX37:2' at (92710000, 86042500) with pad 'D37:2' at (101049999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(92710000, 86042500), (100979999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(100979999, 86042500), (101049999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX60 with D60
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX60:2' at (211772500, 105092500) with pad 'D60:2' at (220112499, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(211772500, 105092500), (220042499, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(220042499, 105092500), (220112499, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX45 with D45
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX45:2' at (254635000, 86042500) with pad 'D45:2' at (262974999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(254635000, 86042500), (262904999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(262904999, 86042500), (262974999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX29 with D29
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX29:2' at (273685000, 66992500) with pad 'D29:2' at (282024999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(273685000, 66992500), (281954999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(281954999, 66992500), (282024999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX15 with D15
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX15:2' at (349885000, 43180000) with pad 'D15:2' at (358224999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(349885000, 43180000), (358154999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(358154999, 43180000), (358224999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX46 with D46
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX46:2' at (273685000, 86042500) with pad 'D46:2' at (282024999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(273685000, 86042500), (281954999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(281954999, 86042500), (282024999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX67 with D67
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX67:2' at (354647500, 109855000) with pad 'D67:2' at (362987499, 109925000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(354647500, 109855000), (362917499, 109855000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(362917499, 109855000), (362987499, 109925000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX20 with D20
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX20:2' at (92710000, 66992500) with pad 'D20:2' at (101049999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(92710000, 66992500), (100979999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(100979999, 66992500), (101049999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX68 with D68
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX68:2' at (35560000, 124142500) with pad 'D68:2' at (43899999, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(35560000, 124142500), (43829999, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(43829999, 124142500), (43899999, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX18 with D18
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX18:2' at (54610000, 66992500) with pad 'D18:2' at (62949999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(54610000, 66992500), (62879999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(62879999, 66992500), (62949999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX26 with D26
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX26:2' at (211772500, 66992500) with pad 'D26:2' at (220112499, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(211772500, 66992500), (220042499, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(220042499, 66992500), (220112499, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX7 with D7
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX7:2' at (173672500, 43180000) with pad 'D7:2' at (182012499, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(173672500, 43180000), (181942499, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(181942499, 43180000), (182012499, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX54 with D54
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX54:2' at (92710000, 105092500) with pad 'D54:2' at (101049999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(92710000, 105092500), (100979999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(100979999, 105092500), (101049999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX21 with D21
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX21:2' at (111760000, 66992500) with pad 'D21:2' at (120099999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(111760000, 66992500), (120029999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(120029999, 66992500), (120099999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX59 with D59
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX59:2' at (192722500, 105092500) with pad 'D59:2' at (201062499, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(192722500, 105092500), (200992499, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(200992499, 105092500), (201062499, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX22 with D22
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX22:2' at (130810000, 66992500) with pad 'D22:2' at (139149999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(130810000, 66992500), (139079999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(139079999, 66992500), (139149999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX82 with D82
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX82:2' at (354647500, 128905000) with pad 'D82:2' at (362987499, 128975000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(354647500, 128905000), (362917499, 128905000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(362917499, 128905000), (362987499, 128975000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX51 with D51
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX51:2' at (35560000, 105092500) with pad 'D51:2' at (43899999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(35560000, 105092500), (43829999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(43829999, 105092500), (43899999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX17 with D17
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX17:2' at (35560000, 66992500) with pad 'D17:2' at (43899999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(35560000, 66992500), (43829999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(43829999, 66992500), (43899999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX62 with D62
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX62:2' at (254635000, 105092500) with pad 'D62:2' at (262974999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(254635000, 105092500), (262904999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(262904999, 105092500), (262974999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX9 with D9
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX9:2' at (211772500, 43180000) with pad 'D9:2' at (220112499, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(211772500, 43180000), (220042499, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(220042499, 43180000), (220112499, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX83 with D83
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX83:2' at (373697500, 128905000) with pad 'D83:2' at (382037499, 128975000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(373697500, 128905000), (381967499, 128905000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(381967499, 128905000), (382037499, 128975000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX48 with D48
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX48:2' at (311785000, 86042500) with pad 'D48:2' at (320124999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(311785000, 86042500), (320054999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(320054999, 86042500), (320124999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX27 with D27
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX27:2' at (235585000, 66992500) with pad 'D27:2' at (243924999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(235585000, 66992500), (243854999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(243854999, 66992500), (243924999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX32 with D32
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX32:2' at (330835000, 66992500) with pad 'D32:2' at (339174999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(330835000, 66992500), (339104999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(339104999, 66992500), (339174999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX25 with D25
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX25:2' at (192722500, 66992500) with pad 'D25:2' at (201062499, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(192722500, 66992500), (200992499, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(200992499, 66992500), (201062499, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX77 with D77
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX77:2' at (242728750, 124142500) with pad 'D77:2' at (251068749, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(242728750, 124142500), (250998749, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(250998749, 124142500), (251068749, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX4 with D4
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX4:2' at (111760000, 43180000) with pad 'D4:2' at (120099999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(111760000, 43180000), (120029999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(120029999, 43180000), (120099999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX31 with D31
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX31:2' at (311785000, 66992500) with pad 'D31:2' at (320124999, 67062500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(311785000, 66992500), (320054999, 66992500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(320054999, 66992500), (320124999, 67062500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX40 with D40
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX40:2' at (154622500, 86042500) with pad 'D40:2' at (162962499, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(154622500, 86042500), (162892499, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(162892499, 86042500), (162962499, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX74 with D74
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX74:2' at (173672500, 124142500) with pad 'D74:2' at (182012499, 124212500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(173672500, 124142500), (181942499, 124142500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(181942499, 124142500), (182012499, 124212500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX36 with D36
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX36:2' at (73660000, 86042500) with pad 'D36:2' at (81999999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(73660000, 86042500), (81929999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(81929999, 86042500), (81999999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX12 with D12
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX12:2' at (273685000, 43180000) with pad 'D12:2' at (282024999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(273685000, 43180000), (281954999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(281954999, 43180000), (282024999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX2 with D2
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX2:2' at (73660000, 43180000) with pad 'D2:2' at (81999999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(73660000, 43180000), (81929999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(81929999, 43180000), (81999999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX55 with D55
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX55:2' at (111760000, 105092500) with pad 'D55:2' at (120099999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(111760000, 105092500), (120029999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(120029999, 105092500), (120099999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX39 with D39
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX39:2' at (130810000, 86042500) with pad 'D39:2' at (139149999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(130810000, 86042500), (139079999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(139079999, 86042500), (139149999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX47 with D47
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX47:2' at (292735000, 86042500) with pad 'D47:2' at (301074999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(292735000, 86042500), (301004999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(301004999, 86042500), (301074999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX11 with D11
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX11:2' at (254635000, 43180000) with pad 'D11:2' at (262974999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(254635000, 43180000), (262904999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(262904999, 43180000), (262974999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX8 with D8
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX8:2' at (192722500, 43180000) with pad 'D8:2' at (201062499, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(192722500, 43180000), (200992499, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(200992499, 43180000), (201062499, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX81 with D81
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX81:2' at (335597500, 128905000) with pad 'D81:2' at (343937499, 128975000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(335597500, 128905000), (343867499, 128905000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(343867499, 128905000), (343937499, 128975000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX5 with D5
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX5:2' at (130810000, 43180000) with pad 'D5:2' at (139149999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(130810000, 43180000), (139079999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(139079999, 43180000), (139149999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX34 with D34
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX34:2' at (35560000, 86042500) with pad 'D34:2' at (43899999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(35560000, 86042500), (43829999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(43829999, 86042500), (43899999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX61 with D61
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX61:2' at (235585000, 105092500) with pad 'D61:2' at (243924999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(235585000, 105092500), (243854999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(243854999, 105092500), (243924999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX13 with D13
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX13:2' at (292735000, 43180000) with pad 'D13:2' at (301074999, 43250000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(292735000, 43180000), (301004999, 43180000)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(301004999, 43180000), (301074999, 43250000)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX56 with D56
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX56:2' at (130810000, 105092500) with pad 'D56:2' at (139149999, 105162500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(130810000, 105092500), (139079999, 105092500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(139079999, 105092500), (139149999, 105162500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:483: Routing MX50 with D50
+INFO: key_placer.py:485: Using internal autorouter method
+DEBUG: board_modifier.py:578: Routing at B.Cu layer
+DEBUG: board_modifier.py:595: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:658: Routing pad 'MX50:2' at (349885000, 86042500) with pad 'D50:2' at (358224999, 86112500) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(349885000, 86042500), (358154999, 86042500)]
+INFO: board_modifier.py:499: Track added
+INFO: board_modifier.py:494: Adding track segment (B.Cu): [(358154999, 86042500), (358224999, 86112500)]
+INFO: board_modifier.py:499: Track added
+INFO: key_placer.py:517: Removing dangling tracks
+INFO: key_placer.py:532: Removing 2c2c1d87-bb27-4beb-81d5-7e3891fd58b8
+INFO: key_placer.py:532: Removing ba22ba48-648b-41aa-89ea-f75ac2499f0b
+INFO: key_placer.py:532: Removing 088c64ef-4b45-4bf8-ba89-6b6c09364a7c
+INFO: key_placer.py:532: Removing ce0331b5-c65c-4aaf-ac7b-1c0bd0c9e110
+INFO: key_placer.py:532: Removing c1ccb25c-84ed-4345-a94d-4dbc06a2f2cf
+INFO: key_placer.py:532: Removing d43ee761-9db8-4151-ba27-98004eaaa19b
+INFO: key_placer.py:532: Removing 67fb5f58-2989-4141-bf80-e0ae170d0ca5
+INFO: key_placer.py:532: Removing f7c84eee-f4df-4e3f-bc33-050917ddc062
+INFO: key_placer.py:532: Removing 280733d9-c2b1-49d6-a0a0-bc59760b8b45
+INFO: key_placer.py:532: Removing f6c0261f-90eb-4e92-bd11-4107c8d49654
+INFO: key_placer.py:532: Removing 449ce11d-c781-4dda-9b4c-d82af8ef06e3
+INFO: key_placer.py:532: Removing 9a08116c-0d05-41ee-81e6-9e7147a0bf78
+INFO: key_placer.py:532: Removing 7fe6cd1c-86ed-4e16-b997-b90c59c3362d
+INFO: key_placer.py:532: Removing e3aac0ec-a9c7-41b3-96dd-52ffd6b25067
+INFO: key_placer.py:532: Removing 6ef06de1-89b8-40a4-91cc-3a684fc8427e
+INFO: key_placer.py:532: Removing 4f92ade0-4743-499e-89c7-790dfafb1825
+INFO: key_placer.py:532: Removing 428fa3bb-005b-43c8-801b-f7300653e5b0
+INFO: key_placer.py:532: Removing f33017b8-5d9d-4a84-b748-7cf2591011a5
+INFO: key_placer.py:532: Removing 98865928-aa40-497e-b812-13042cf3b438
+INFO: key_placer.py:532: Removing a85f9bc1-4879-46f7-9a7a-060294d9ae29
+INFO: key_placer.py:532: Removing ddb61288-f713-44ef-bc1b-901551ca3e84
+INFO: key_placer.py:532: Removing 6a65c868-7a5b-45df-8c8f-978ac52bb804
+INFO: key_placer.py:532: Removing b8d37d17-92e5-4258-ae79-2bcee5449187
+INFO: key_placer.py:532: Removing febd747b-73b1-4d1b-b927-33324fb248fd
+INFO: key_placer.py:532: Removing cb5cb8e6-cbe7-419c-9edb-9c75cc9e8f0c
+INFO: key_placer.py:532: Removing 7c5ec7ae-a2ad-4554-9c6b-2bf5c2d3ace0
+INFO: key_placer.py:532: Removing e6f89a59-11f7-40a3-82e7-58668e7574c5
+INFO: key_placer.py:532: Removing 99160132-5ab8-418c-9cbe-bdd349475536
+INFO: key_placer.py:532: Removing 4efdcb24-fb32-4405-94a9-c603e01e0b51
+INFO: key_placer.py:532: Removing b2bf8fbe-e2d9-4e37-8c39-b25774bba553
+INFO: key_placer.py:532: Removing 7745db3e-b2d5-4546-8f89-8ea9e4c8bbd8
+INFO: key_placer.py:532: Removing 353771a0-4f5a-486a-b564-a40bd44e7791
+INFO: key_placer.py:532: Removing 1af3fbe0-1fcd-4ade-8971-bf9101ce3956
+INFO: key_placer.py:532: Removing e7f33d8b-0a46-4943-bdff-c99f0e7a2526
+INFO: key_placer.py:532: Removing abd21506-dd86-4294-bba8-e72f532e1331
+INFO: key_placer.py:532: Removing 37f7380d-1109-4de4-a3b1-20b22113bbe9
+INFO: key_placer.py:532: Removing ce1797da-b74e-4a93-97dc-df232aebe2cf
+INFO: key_placer.py:532: Removing d25a5aef-03d7-4464-9dd9-4773567e21aa
+INFO: key_placer.py:532: Removing e32438f9-75e7-474e-a99c-bf13a19677e0
+INFO: key_placer.py:532: Removing 6f75a73d-30b5-45a6-aa16-608901596f33
+INFO: key_placer.py:532: Removing bdf2deaa-d665-4a04-9bad-d11498baf38d
+INFO: key_placer.py:532: Removing e2f72f71-48e3-49db-9776-f334f7527dcb
+INFO: key_placer.py:532: Removing e0c0ca16-0b8b-42bd-80d1-9a34920a33fb
+INFO: key_placer.py:532: Removing de4ac1da-aeae-4598-9f19-1e793dca7218
+INFO: key_placer.py:532: Removing 5e2ec3c0-b106-4347-903e-f71b7ea8fe2b
+INFO: key_placer.py:532: Removing 66a38233-c804-491e-a96a-1e9381464df8
+INFO: key_placer.py:532: Removing 102e72ba-d031-47e3-b293-1e02ff158361
+INFO: key_placer.py:532: Removing 2e071d95-2bf9-4eca-91d2-4ab9c4401769
+INFO: key_placer.py:532: Removing 06745cf6-f8fe-48b3-9021-d8309e3b7129
+INFO: key_placer.py:532: Removing 5a743777-06bb-416d-b571-020391e55425
+INFO: key_placer.py:532: Removing 51fc98e6-0fe0-44e7-af20-f665f533f4bb
+INFO: key_placer.py:532: Removing 02d52199-0cc8-4379-94a3-9011269dec0f
+INFO: key_placer.py:532: Removing fc46605b-43db-46c1-aa78-0d579c9e13d0
+INFO: key_placer.py:532: Removing eacd9881-9934-455e-a6ed-d1ee7d1dbbfd
+INFO: key_placer.py:532: Removing 0afd3d6b-fa69-4ca4-aa61-4d11ae23cffb
+INFO: key_placer.py:532: Removing 098cc56f-485c-40d3-9f94-036d87f2a6df
+INFO: key_placer.py:532: Removing 57a848d0-0462-4e7f-b607-a1a24a68fc60
+INFO: key_placer.py:532: Removing 60ba1d9d-cead-48b7-aa79-7e39df3955d6
+INFO: key_placer.py:532: Removing 560cd876-2c2d-4d48-9ab9-8143f08da110
+INFO: key_placer.py:532: Removing a216a019-13e7-46da-b156-07e07a688768
+INFO: key_placer.py:532: Removing 9e5962fb-1690-4748-a0d8-50a0f18b8137
+INFO: key_placer.py:532: Removing 67d78eb3-5960-4c98-a3ff-ef5333735629
+INFO: key_placer.py:532: Removing e51e4f0c-d2ff-4080-a678-92aeb990bec9
+INFO: key_placer.py:532: Removing 4e20963d-f6fc-40e6-a39a-f7962018cbee
+INFO: key_placer.py:532: Removing a3800e88-bf84-407f-915b-87e118d1c589
+INFO: key_placer.py:532: Removing b43c4241-0f47-4427-b31a-b87d551ef2d3
+INFO: key_placer.py:532: Removing 82eee3da-3fa0-4812-b00e-be6d3c3d8967
+INFO: key_placer.py:532: Removing 928c3ea5-ccd2-4114-bfa8-be149d652f33
+INFO: key_placer.py:532: Removing 29d4c25c-9739-4393-8a46-5bee03c28c90
+INFO: key_placer.py:532: Removing 8fe863d1-5ef7-4661-9e96-cfd82770f0ae
+INFO: key_placer.py:532: Removing aaed59b1-9164-48ca-9794-5eac7442affb
+INFO: key_placer.py:532: Removing 2934a71f-1563-40dc-995b-3e1bcd661490
+INFO: key_placer.py:532: Removing 740fa15a-f0c9-46ac-88f6-eec52e56104c
+INFO: key_placer.py:532: Removing 357e4918-ed9d-4174-abdc-da29ca7a9fd5
+INFO: key_placer.py:532: Removing 0a79ef78-7c5a-4895-b9c7-4565d40c95ef
+INFO: key_placer.py:532: Removing 308c510a-1d05-474b-9fac-3421760755d4
+INFO: key_placer.py:532: Removing de790b29-bcd1-4a3a-8c98-e4f1fcb3cfb1
+INFO: key_placer.py:532: Removing f43b1719-63ff-4c3f-a633-0c72286d4352
+INFO: key_placer.py:532: Removing d7087acc-15d0-43a8-9db7-7d165fdfbb12
+INFO: key_placer.py:532: Removing 0025c4fc-4c82-4880-a4cc-37715a995c0a
+INFO: key_placer.py:532: Removing 50311e81-bb4c-4876-9fcf-721c219d866e
+INFO: key_placer.py:532: Removing 46f8ff9d-4fcf-41e7-9ec5-3c15878830f4
+INFO: key_placer.py:532: Removing f9018cba-91f9-40a0-9ed7-2e60899822c8
+INFO: key_placer.py:532: Removing 6ff438ea-9e0c-4a5d-be3a-8033689c6aad
+INFO: key_placer.py:532: Removing b082e94e-68f2-48f1-bb3b-0ae21009a076
+INFO: key_placer.py:532: Removing dbb9394c-d07e-4978-97ab-4d4bb50d90e6
+INFO: key_placer.py:532: Removing 7d4d671f-2572-447a-af1b-5713033bef10
+INFO: key_placer.py:532: Removing 0843e2f8-a460-4738-b12d-d099516cec1a
+INFO: key_placer.py:532: Removing 91fb9d15-8b71-4e2a-af11-df4ae23d73ed
+INFO: key_placer.py:532: Removing baad3307-3fa8-4a62-bacd-eabc1f4b706b
+INFO: key_placer.py:532: Removing 297dc79b-1212-4186-827d-14772c39cecb
+INFO: key_placer.py:532: Removing 87431f81-f9ce-4eba-9a36-f1f1cbf9ff7f
+INFO: key_placer.py:532: Removing 2c715036-c57d-44ea-b968-261e6eaa6109
+INFO: key_placer.py:532: Removing 1c46bb3c-e609-4a97-86a9-ff3a1a488f3f
+INFO: key_placer.py:532: Removing 8b8e8aaa-6d28-4b11-bb6f-03105f6ee654
+INFO: key_placer.py:532: Removing 6166ac6b-4ce1-47a5-b007-24cabe47ef51
+INFO: key_placer.py:532: Removing 5910abab-11a7-448e-b13b-769bf0475bb8
+INFO: key_placer.py:532: Removing 708a7db2-2677-45ae-9ef0-08f6d6699f65
+INFO: key_placer.py:532: Removing 8314ed63-1b0d-4be8-9c00-3fc78eb6176c
+INFO: key_placer.py:532: Removing 7d823cd5-d4d2-4f1b-af83-bf3dd69d2aed
+INFO: key_placer.py:532: Removing 19472a8f-d45b-41e5-8a6f-8f6f62ef8383
+INFO: key_placer.py:532: Removing 8fafe79f-bcd4-4140-ab79-4cdc56dc198e
+INFO: key_placer.py:532: Removing 833d369b-adf1-45d2-99c2-8dec57bba7c5
+INFO: key_placer.py:532: Removing b39bda0d-9778-4e29-8530-1c72c876ca1d
+INFO: key_placer.py:532: Removing 9738e787-aed4-4b31-94ab-23d2bc416e51
+INFO: key_placer.py:532: Removing 0a1114dc-6b94-49cc-a599-eaed75570307
+INFO: key_placer.py:532: Removing f0a494e3-b2d1-4aca-916c-a0dff0b24477
+INFO: key_placer.py:532: Removing 8e0f87b1-90de-4dc8-8989-a9ad39274d93
+INFO: key_placer.py:532: Removing 3608638a-f12e-4ebe-8d52-2b71b68f73f4
+INFO: key_placer.py:532: Removing 68df9190-8599-4e0d-a49c-b90d4118f6f8
+INFO: key_placer.py:532: Removing 8260bc39-bfd1-4ee5-856f-ec52120f0b53
+INFO: key_placer.py:532: Removing a143d7e6-e853-42a8-ad29-a6a7a4214b93
+INFO: key_placer.py:532: Removing 104641c9-5e67-4fb6-b3cb-21f9706f3e66
+INFO: key_placer.py:532: Removing f9392a8f-02a4-4645-b9af-74f6652349dc
+INFO: key_placer.py:532: Removing 67e98cfd-b0c5-4911-9269-b496ee1be0db
+INFO: key_placer.py:532: Removing db164742-8af2-42aa-8af0-95de0c1c55f0
+INFO: key_placer.py:532: Removing cff528f8-f801-419b-a90b-5231dd006643
+INFO: key_placer.py:532: Removing 85cdcff1-68c1-483f-9de1-87eb5f5752d6
+INFO: key_placer.py:532: Removing 647140d1-529a-44af-ae70-400ae89576a1
+INFO: key_placer.py:532: Removing 25ea48a3-aed7-4492-9271-2aba9f94f29d
+INFO: key_placer.py:532: Removing 29d86d50-a434-455c-9b23-7b8a3a584758
+INFO: key_placer.py:532: Removing a622a06e-9c29-4f27-a1fe-da2c4ea161df
+INFO: key_placer.py:532: Removing deab2384-6919-48ff-8def-bb3a094c9dd9
+INFO: key_placer.py:532: Removing 00f03300-e4f9-4c45-a2a8-1b0d3b7d948c
+INFO: key_placer.py:532: Removing 3c1b6028-4e13-44ff-a8f2-d805d37cf52e
+INFO: key_placer.py:532: Removing c54f703b-a15c-4194-9a27-6158149b97cf
+INFO: key_placer.py:532: Removing 0d521705-0938-4f42-ac01-8d4bf5be26d1
+INFO: key_placer.py:532: Removing 837fc6f7-efc6-4998-9d15-d26733a41695
+INFO: key_placer.py:532: Removing 8d6d9693-2ae9-4660-9c72-1b2eb0b3ab40
+INFO: key_placer.py:532: Removing 35625442-9b36-4605-b0fa-d064e667d825
+INFO: key_placer.py:532: Removing 5bab3949-8124-4f63-88ee-1f6a254d72e3
+INFO: key_placer.py:532: Removing f28db1c4-6059-4136-adbf-79c90bcd8783
+INFO: key_placer.py:532: Removing 7838eda5-8159-493a-8bb9-f291507b71a3
+INFO: key_placer.py:532: Removing f1e09d4c-7ffa-46b4-973b-3925e5da2240
+INFO: key_placer.py:532: Removing 17a4168c-5b39-4e2d-8568-3651af75a8f2
+INFO: key_placer.py:532: Removing 0d6997b5-a3a6-4bdd-b3cc-901aa923a4d4
+INFO: key_placer.py:532: Removing 872f7b10-f153-401c-86ac-85487f97dab9
+INFO: key_placer.py:532: Removing a483c588-d776-40ab-9ffb-cd327c76f4d8
+INFO: key_placer.py:532: Removing e0e66722-713d-4db1-8158-8bddaf13af5b
+INFO: key_placer.py:532: Removing 67f6fc06-1f36-4e59-a3a0-431cbde7d4f8
+INFO: key_placer.py:532: Removing b848ccc9-cce8-4c69-9883-fcb7d6319471
+INFO: key_placer.py:532: Removing 05b3dfac-7133-4b3f-bbd7-c253cb36ae52
+INFO: key_placer.py:532: Removing 6f9f47b1-24bf-43b2-b7a7-15ba3a45982d
+INFO: key_placer.py:532: Removing d95ceb77-35ee-445d-ab31-a3d2eeb24f33
+INFO: key_placer.py:532: Removing 044c30ee-43cd-41cc-8248-66a6bbd2b6d5
+INFO: key_placer.py:532: Removing 688fc6bc-af6d-4d6d-9949-3ac3f6018172
+INFO: key_placer.py:532: Removing d33386ff-913a-417f-abff-6f2cfec7183e
+INFO: key_placer.py:532: Removing cabca43d-fd70-4277-bd23-21fb68d8ba22
+INFO: key_placer.py:532: Removing 5b478fb8-b5a1-4e1e-b761-574cbcc1b787
+INFO: key_placer.py:532: Removing 24bc18b9-468d-4687-a20f-9c46b9fda556
+INFO: key_placer.py:532: Removing a20690ef-ccf4-4844-97a6-fd61e53581bf
+INFO: key_placer.py:532: Removing 95f69f9d-4c25-4b81-b81e-c018b4e3d1a3
+INFO: key_placer.py:532: Removing 56f12e7f-642f-416d-a15a-6bcf5e29d77a
+INFO: key_placer.py:532: Removing 4ea1ac89-a314-4309-a7ed-f495af40e380
+INFO: key_placer.py:532: Removing cf9fb939-fc32-4d89-aa58-f6c6a95b2c1f
+INFO: key_placer.py:532: Removing 08c36b38-8e2d-49cc-8f11-bb13da696ef9
+INFO: key_placer.py:532: Removing 4b99f1f2-a52f-406e-a168-a9acef15b981
+INFO: key_placer.py:532: Removing 51060d44-ff0a-4374-b691-7711ec2a8182
+INFO: key_placer.py:532: Removing 790ba2dc-5939-42be-8216-0d1f9629741c
+INFO: key_placer.py:532: Removing cb485d74-6c79-48a2-b7af-f96aeba75e5b
+INFO: key_placer.py:532: Removing 0f9d95f2-bd8c-4029-96a0-3b1ba17db6a2
+INFO: key_placer.py:532: Removing a4730849-6e15-4cd2-a418-686a80cdc9e5
+INFO: key_placer.py:532: Removing 5575af12-dc8d-488a-8123-24bf60c03900
+INFO: key_placer.py:532: Removing ec296ef5-8f0f-4608-8364-456324fefe55
+INFO: key_placer.py:532: Removing 1259a0cd-345c-4084-9862-3e5b35a73b4b
+INFO: key_placer.py:532: Removing 6b7fe828-7d06-4ee5-a912-45e52639d456
+INFO: key_placer.py:532: Removing 11a8c342-bee8-46c7-b172-8d9298ff57aa
+INFO: key_placer.py:532: Removing 9d7b27a9-e19d-4ced-b994-d8f629ccd335
+INFO: key_placer.py:532: Removing 720d8f3c-e73c-486c-8965-3eff8b9b8ef9
+INFO: key_placer.py:532: Removing b3f4e6d1-0418-4225-b3cd-409fccbdf72f
+INFO: key_placer.py:532: Removing 82144bf3-2eda-4a08-8bf3-c09aa7103c35
+INFO: key_placer.py:532: Removing 3efa51e0-4c0f-4385-b6d8-ac2740de090c
+INFO: key_placer.py:532: Removing 42c17e77-2a24-4b49-b8bc-022753f6113a
+INFO: key_placer.py:532: Removing 8a3da4b3-1993-4701-b0f1-c133ed53be94
+INFO: key_placer.py:532: Removing f315a7a7-70b4-4d09-9bb5-40b27e52f9f1
+INFO: key_placer.py:532: Removing 461e7c07-4903-4328-bca8-09559bf6b834
+INFO: key_placer.py:532: Removing 36a4619c-65fb-43ff-ba12-b20411e5ce3e
+INFO: key_placer.py:532: Removing 91481362-1ca7-45ff-95ca-938c64489c0e
+INFO: key_placer.py:532: Removing b299ae99-d2b0-40b1-a6b7-092e0cf6816d
+INFO: key_placer.py:532: Removing 32ca2b9e-1cf7-4e41-8506-17c70f30157a
+INFO: key_placer.py:532: Removing f17a7f39-ac6f-439e-9e08-6f7c3ab5c0b8
+INFO: key_placer.py:532: Removing 6ea55197-bb43-4aa0-be0a-ff7bb34fbe37
+INFO: key_placer.py:532: Removing c6c2b577-98a2-44b5-858b-34e6070b6356
+INFO: key_placer.py:532: Removing 24b29d8e-7328-4136-9869-5398c742260e
+INFO: key_placer.py:532: Removing 8fd8fb89-9749-420a-ac44-b5d3ba0cfb32
+INFO: key_placer.py:532: Removing 044fd24e-cfa6-44f2-a4e0-1239e6e6dc82
+INFO: key_placer.py:532: Removing b051f99c-2400-4de2-8ee8-e782b234b5db
+INFO: key_placer.py:532: Removing 738ffceb-5be2-4b29-951f-4fa2d53c49bd
+INFO: key_placer.py:532: Removing a1b05690-779f-4dc9-84d4-556cb932f207
+INFO: key_placer.py:532: Removing 0c5c8a0c-c77b-4bb5-b51e-93324684477a
+INFO: key_placer.py:532: Removing 3955f5a1-0ad0-450f-bc5f-e5b747e8a4bf
+INFO: key_placer.py:532: Removing 76046eb5-d072-4fd1-b34f-afed5d2202cb
+INFO: key_placer.py:532: Removing e522224f-aef0-48e5-8c4c-3795565fda59
+INFO: key_placer.py:532: Removing dfa5f292-ed7a-4fc4-805b-bd76eb8470bc
+INFO: key_placer.py:532: Removing 367169c9-b093-4bd9-9136-5e2b3a31a0ba
+INFO: key_placer.py:532: Removing f8604ed5-ec99-4050-bb7e-2d5cde436d38
+INFO: key_placer.py:532: Removing 72aba0b4-78a2-4937-95cf-89c46b98bb3e
+INFO: key_placer.py:532: Removing 78293475-a9f3-400d-9c04-cfb2922c8529
+INFO: key_placer.py:532: Removing 4683cc46-1f0c-4249-9369-9c970e250c6d
+INFO: key_placer.py:532: Removing 663355ba-797e-46e9-b405-cf6e8f4bd522
+INFO: key_placer.py:532: Removing fe586a36-c13a-444f-84d0-731b05f6c475
+INFO: key_placer.py:532: Removing ebe2cc95-c16c-45e8-900d-afa0ac2ac42a
+INFO: key_placer.py:532: Removing da4913fc-85ce-4c47-8f54-1e3b0d73693e
+INFO: key_placer.py:532: Removing 98420d55-213a-47cb-b291-1dba9422c889
+INFO: key_placer.py:532: Removing 61a17ceb-346a-4039-80b4-4cb25ea728bc
+INFO: key_placer.py:532: Removing 812848b9-e8ed-4ac4-a8d4-634e3c2f8c00
+INFO: key_placer.py:532: Removing 19daa9b7-feed-420b-895b-90b57b5cc2ab
+INFO: key_placer.py:532: Removing 03aaacc9-dc3b-4e35-a463-b99cb3c6d201
+INFO: key_placer.py:532: Removing a069c5ac-4a02-48f0-81f8-c97059279711
+INFO: key_placer.py:532: Removing 373602fd-e01e-4e78-a610-ee442c54b335
+INFO: key_placer.py:532: Removing b10fb0bb-7570-4252-801a-0d10e2bec122
+INFO: key_placer.py:532: Removing 9814a5de-7b3b-4dcf-a87b-0e6547a62a30
+INFO: key_placer.py:532: Removing ae9a4857-b8fd-4162-90d2-1b420d94e61a
+INFO: key_placer.py:532: Removing 0cdbdb90-7231-46d8-902e-af300f4ec07a
+INFO: key_placer.py:532: Removing 0153a3fc-4506-41fa-87c3-88c36de66706
+INFO: key_placer.py:532: Removing 0621fd77-d42b-4d84-a9b2-93cb8a5dd5da
+INFO: key_placer.py:532: Removing f7b1577c-c5ef-4a21-9579-8fb6c332501e
+INFO: key_placer.py:532: Removing f0741d96-320e-48b5-9f0a-e851a666fecf
+INFO: key_placer.py:532: Removing e09f133f-32f8-4f61-8753-2c2cc8176594
+INFO: key_placer.py:532: Removing 2b3587a4-c36b-4f0d-a325-ca9f0ad7bc24
+INFO: key_placer.py:532: Removing 5beab9ae-c0a6-4c6e-a0cd-d32988f52de6
+INFO: key_placer.py:532: Removing 76909df0-6c02-4970-9bd5-219c9152ad2e
+INFO: key_placer.py:532: Removing c2181f4e-9848-4c17-afc4-e47646e61eae
+INFO: key_placer.py:532: Removing bb8b1f02-bb09-4861-8c61-7cd634658f15
+INFO: key_placer.py:532: Removing 7291a115-eac1-4ab8-a6e3-1286701a3d99
+INFO: key_placer.py:532: Removing 88faae17-657e-4e6c-bea3-1af118f8e412
+INFO: key_placer.py:532: Removing 7d3245b1-70e4-4f01-a60b-13a54f3f0763
+INFO: key_placer.py:532: Removing 1185021c-de6e-4161-8bf4-e067c6cb380a
+INFO: key_placer.py:532: Removing 3465178e-113a-4a6b-ba7b-f633fe8ba5d0
+INFO: key_placer.py:532: Removing 0e5f384d-7ccf-410f-bc7e-ac0f8437f21d
+INFO: key_placer.py:532: Removing 6db9794a-fae1-4123-962d-3a3158df9c3e
+INFO: key_placer.py:532: Removing 56d15ee7-a5ad-4b2f-ab02-fe51985aa197
+INFO: key_placer.py:532: Removing f2a592db-45dd-44a3-9222-efe8ca70a88b
+INFO: key_placer.py:532: Removing ada2d1ea-2b70-4381-ad30-3f6e2e5b76e6
+INFO: key_placer.py:532: Removing c212079a-f22c-446a-87c2-9dcaaf424caa
+INFO: key_placer.py:532: Removing 31250637-ada6-4c48-909b-3a50358e6ec1
+INFO: key_placer.py:532: Removing b57eef97-894f-4f2e-a858-4a83ae5993f2
+INFO: key_placer.py:532: Removing 4eaebb02-4457-44d3-95dd-3e4f3ac32fb9
+INFO: key_placer.py:532: Removing 94fe8115-bc53-48ce-97f0-514de56ff99b
+INFO: key_placer.py:532: Removing 6966047f-d34e-46a7-8b68-9043d16b51e3
+INFO: key_placer.py:532: Removing cfe60299-c212-4048-9579-e8e29af1b39f
+INFO: key_placer.py:532: Removing a4151f99-4b58-4490-838d-99f603a464c2
+INFO: key_placer.py:532: Removing 6d4fb2b6-b1cc-4ec8-a1e6-a0ed6e3185d4
+INFO: key_placer.py:532: Removing 65b601c9-c978-4d69-ba60-3bfebd5869a8
+INFO: key_placer.py:532: Removing b0ec954c-7dce-4326-8665-7403c33d723f
+INFO: key_placer.py:532: Removing e1a137af-7097-4f20-90af-23942679fab2
+INFO: key_placer.py:532: Removing cbc68279-8ef6-45f0-b480-c47b6e3a8488
+INFO: key_placer.py:532: Removing b1489bbc-5ce4-44fd-bcd9-9527761cbadb
+INFO: key_placer.py:532: Removing f755caa4-72b5-4bd8-9d43-1358b8253166
+INFO: key_placer.py:532: Removing 3b3f1635-d65a-403d-a368-4487005a640b
+INFO: key_placer.py:532: Removing ee010f96-4a11-4f81-bacb-2ca99298ec77
+INFO: key_placer.py:532: Removing 8ddec9c4-f503-4ac8-b022-fe9ee6e0e29a
+INFO: key_placer.py:532: Removing de4bad13-2f76-4138-a6cc-c7912d8d7700
+INFO: key_placer.py:532: Removing 019d3597-50fe-496f-9aed-8fa79daf5149
+INFO: key_placer.py:532: Removing 70a43b3c-a75f-468c-8152-0add270c7896
+INFO: key_placer.py:532: Removing 8a00d034-b013-4a82-9477-50e34e8497c1
+INFO: key_placer.py:532: Removing ab7ceec9-26e9-47d2-af19-413abc6a765a
+INFO: key_placer.py:532: Removing fe830e39-3a6a-4e09-9887-e4a5394ec4fb
+INFO: key_placer.py:532: Removing 2e0bc8f3-9740-4175-a580-4758e7c5f53c
+INFO: key_placer.py:532: Removing cf3a9eb2-605f-4cdf-b87c-837872741878
+INFO: key_placer.py:532: Removing e54141b8-a5ec-4dcf-a75f-788ab016f08e
+INFO: key_placer.py:532: Removing a654f5e9-8e37-489a-ad2e-6f2272a3fbbd
+INFO: key_placer.py:532: Removing b48625cd-f2c2-4a43-af2c-2bb7511f0a99
+INFO: key_placer.py:532: Removing e0816ff4-c9d3-47eb-af52-5d6feec3ad94
+INFO: key_placer.py:532: Removing b7685fcf-055a-4ea2-b3ba-28bf41681744
+INFO: key_placer.py:532: Removing 2e4ee064-5845-4429-af1c-74cc6135b49c
+INFO: key_placer.py:532: Removing 95f85972-20bc-4d8b-960c-75b0eef24069
+INFO: key_placer.py:532: Removing 94af1f34-f8cc-461d-ba94-d89d5dd9a340
+INFO: key_placer.py:532: Removing 0be1f960-1a1b-4af5-9ff0-ede8b3c1b13b
+INFO: key_placer.py:532: Removing 0cff1109-761b-4c10-ad1a-9cb49b41ca5c
+INFO: key_placer.py:532: Removing aaa015c2-c78e-4e1e-b5c6-619450616550
+INFO: key_placer.py:532: Removing 688091e3-c657-40d6-89ac-9bd064bec3b2
+INFO: key_placer.py:532: Removing 24af781e-c33f-4652-b08a-3b20080ec7a4
+INFO: key_placer.py:532: Removing 76db62ce-0266-4fcb-8e6b-1d44ab58a226
+INFO: key_placer.py:532: Removing ba807363-6a63-43e6-a122-54960cb6e8e6
+INFO: key_placer.py:532: Removing 0f293864-bae9-4b7d-9c5b-bd5bf879b646
+INFO: key_placer.py:532: Removing 5fa4c710-bc9e-4574-8c8d-f8cec6573d86
+INFO: key_placer.py:532: Removing fdfb57c8-9ec1-40b1-ad54-c4e7f839f7e8
+INFO: key_placer.py:532: Removing 3eaf9c05-32f2-4313-ad42-ec558c4851ba
+INFO: key_placer.py:532: Removing 68c1b538-ae9e-41a0-9255-eb9ab327f61e
+INFO: key_placer.py:532: Removing cecf0aea-25e8-458d-a3b3-12151f9d89a0
+INFO: key_placer.py:532: Removing 2d6833b3-1fe5-4e1b-8c43-c17df0ff6661
+INFO: key_placer.py:532: Removing d71abd33-a654-4dda-b2ff-9d7099a311a5
+INFO: key_placer.py:532: Removing 03a5a261-8619-4b80-93fd-afcdf8f300d8
+INFO: key_placer.py:532: Removing 485f19dd-766c-47db-8c0b-f61e76b002a3
+INFO: key_placer.py:532: Removing a7d37f59-78e1-49e3-a5e9-04b2b901f518
+INFO: key_placer.py:532: Removing c392dd9b-a350-44c5-97b6-fa34f4b638b8
+INFO: key_placer.py:532: Removing 7c910994-c1bf-4694-b2c5-663fe41a02f5
+INFO: key_placer.py:532: Removing a19a5d32-7841-417f-bb7f-4a439e626f9f
+INFO: key_placer.py:532: Removing a32d0e6f-3a4f-4e85-a4cd-6eeae45ec713
+INFO: key_placer.py:532: Removing a12a9b91-36d5-4e12-835b-c56e1293cc9d
+INFO: key_placer.py:532: Removing a363209a-7aaf-41a4-9ba0-43e50fd8c579
+INFO: key_placer.py:532: Removing 9014b19c-5734-4c8a-a7ba-e32fb84d25c0
+INFO: key_placer.py:532: Removing 4309a96d-d286-4736-9321-2fd8a40c6ddf
+INFO: key_placer.py:532: Removing 09218181-b7b8-4192-a05b-f493e59efcbd
+INFO: key_placer.py:532: Removing aaeda29b-ee33-4801-aaac-5a9e4a858e5b
+INFO: key_placer.py:532: Removing b8bdc253-7425-41d0-88b4-194615ce3c7c
+INFO: key_placer.py:532: Removing 4b0f98bc-a691-4e0d-ae29-0f042ff99aeb
+INFO: key_placer.py:532: Removing ce3349a7-6e5d-4c51-87b6-5962a0c6644e
+INFO: key_placer.py:532: Removing b0723e07-e3cb-440a-81d7-a5449fda3605
+INFO: key_placer.py:532: Removing 54204c91-9007-4966-b2e6-8cfb245c6bf3
+INFO: key_placer.py:532: Removing 95a4fc8e-8220-4a73-9e2b-ef26487bbc93
+INFO: key_placer.py:532: Removing c604efc1-245a-4736-8d22-e51dbc667610
+INFO: key_placer.py:532: Removing 27fea3d6-1faa-4dda-b0fa-8911f852630b
+INFO: key_placer.py:532: Removing f789eccb-e046-4f52-a88d-949d8f7931f3
+INFO: key_placer.py:532: Removing 2b420678-1854-456e-ae36-e68b34029b90
+INFO: key_placer.py:532: Removing e6b9db97-b353-4424-9b9d-451042eddb14
+INFO: key_placer.py:532: Removing 97f7817d-4f13-48bd-ba7e-d7edc44862d7
+INFO: key_placer.py:532: Removing 2006170b-2bb2-4468-a0ac-c221e23954e2
+INFO: key_placer.py:532: Removing 7ea38a12-a603-4d5d-80c9-a20f19be84b9
+INFO: key_placer.py:532: Removing 75a2b974-0401-4642-9c64-af5510a510fb
+INFO: key_placer.py:532: Removing b6a3a4f4-6b69-400a-8016-b159d30b7407
+INFO: key_placer.py:532: Removing 06c20156-32f1-4384-a097-72ca760acc5f
+INFO: key_placer.py:532: Removing 4ac031ca-c801-41a0-a5af-8d4d32e3b579
+INFO: key_placer.py:532: Removing 52198cfd-a8fb-49d7-adf6-2b014d971056
+INFO: key_placer.py:532: Removing c4e90bcf-5cb7-41b6-8053-85c408b33544
+INFO: key_placer.py:532: Removing 4d24d24b-360f-4dac-abe7-09f21b526dba
+INFO: key_placer.py:532: Removing d24b7c51-f509-4104-83fb-78bcbb43189a
+INFO: key_placer.py:532: Removing 4dd8d550-0828-4188-ab84-37da7c1c6b19
+INFO: key_placer.py:532: Removing cae2ff51-980d-4152-950b-16141bf2c473
+INFO: key_placer.py:532: Removing 8e4112c6-42ed-4914-8898-e9e002329461
+INFO: key_placer.py:532: Removing dd5f818e-6246-4e4f-beaf-fd18041b1a02
+INFO: key_placer.py:532: Removing 0122dbe3-6cb2-4405-a593-7a1802330c40
+INFO: key_placer.py:532: Removing bed3bc50-3c32-41e5-86f3-3787d62dafcb
+INFO: key_placer.py:532: Removing d150a926-a3cb-4706-8433-6c87dbf4c3d0
+INFO: key_placer.py:532: Removing 2b99f12c-bebc-4698-951b-c27bbbad5670
+INFO: key_placer.py:532: Removing 56d55ac2-346e-4907-b5f7-4c5081143578
+INFO: key_placer.py:532: Removing c666df94-2c40-4764-85cb-ba43fbc19cce
+INFO: key_placer.py:532: Removing 569c6452-0a0b-43f2-a74f-def4e3eb0775
+INFO: key_placer.py:532: Removing 1256728c-8f1e-4069-a278-f817547e0f49
+INFO: key_placer.py:532: Removing 503cf7a3-8be7-4367-8251-076fe81041ad
+INFO: key_placer.py:532: Removing 38f64025-1cba-4634-a761-2295a80dc35a
+INFO: key_placer.py:532: Removing 64bb4634-e8c3-4e44-96fd-f790f28d5294
+INFO: key_placer.py:532: Removing 541e26f4-7124-42cc-bfb5-86e0712857f9
+INFO: key_placer.py:532: Removing a72e57c2-72c9-4bb8-a61c-527c09b22a2a
+INFO: key_placer.py:532: Removing d4b8a1cf-84b8-4319-ba13-01623c745e10
+INFO: key_placer.py:532: Removing c07fd832-2ffe-452f-a352-868a47f2a776
+INFO: key_placer.py:532: Removing 9c8ad9e8-7fe9-4d45-8f02-db5f596fefa4
+INFO: key_placer.py:532: Removing 14275935-9626-4d81-aba5-6fae970b9bdf
+INFO: key_placer.py:532: Removing c786de01-5c94-4d87-a969-4e409faea6da
+INFO: key_placer.py:532: Removing 7ecee1de-dadf-4f5f-b276-4c47c5da9596
+INFO: key_placer.py:532: Removing 08955f55-2569-4e8a-b99d-74ad87ae34be
+INFO: key_placer.py:532: Removing ca0c80df-7ce5-4b75-aca7-5cebadba98d0
+INFO: key_placer.py:532: Removing dd4587a1-f3cc-4c1d-a88a-92be9057f858
+INFO: key_placer.py:532: Removing 49ee256e-cf15-41be-967a-69f2ede5ce77
+INFO: key_placer.py:532: Removing ebf5e8ce-4cc5-4418-b913-685020c177c8
+INFO: key_placer.py:532: Removing fb6abdde-b974-422e-974d-fa8b2dbed9dc
+INFO: key_placer.py:532: Removing c9642da6-8edf-4d1f-8417-f5044e2ed285
+INFO: key_placer.py:532: Removing 49036aea-d56b-4f9a-8e1b-6013e2b20f25
+INFO: key_placer.py:532: Removing ffe00911-7097-4264-86c1-93cb04a8f5a4
+INFO: key_placer.py:532: Removing 86ad32cb-507f-4723-bdd2-f3446ccc046d
+INFO: key_placer.py:532: Removing 4f534d73-57f7-4cf2-a54b-22fd7d1ab6b6
+INFO: key_placer.py:532: Removing 91b25c76-6899-40d3-9ce8-dea02d3f20a3
+INFO: key_placer.py:532: Removing 468e9696-32c5-4b42-b5cd-2c34008d909f
+INFO: key_placer.py:532: Removing a9f3ad5f-7c71-4f7a-9611-3e42dcfad33b
+INFO: key_placer.py:532: Removing 7a93fb39-486c-4d55-87b1-5bad5b4fca9c
+INFO: key_placer.py:532: Removing 0bae09c6-ee9e-4b14-90db-f64415e2b372
+INFO: key_placer.py:532: Removing 988d6baa-3ec2-4aee-9195-79a88e56fb54
+INFO: key_placer.py:532: Removing ba281a5c-21a6-4c5d-a470-de7c7196d1f3
+INFO: key_placer.py:532: Removing 6fe13e61-2e2a-40fe-b7ce-8f34c6216144
+INFO: key_placer.py:532: Removing ef729fed-27b3-44d8-b4f2-2fbdcde8d830
+INFO: key_placer.py:532: Removing d12f89e7-0c1d-43d8-ae73-e6e4c604efce
+INFO: key_placer.py:532: Removing e0b93b6c-afeb-4ece-8bf5-8bce2ea2b96a
+INFO: key_placer.py:532: Removing a1da86f8-e6e8-4236-9d46-7f3e4dc6df38
+INFO: key_placer.py:532: Removing 710fb3ae-4440-4400-b951-2a8f6133fb2e
+INFO: key_placer.py:532: Removing ec7e0a71-bc10-43d2-8f04-1fdaebcfc663
+INFO: key_placer.py:532: Removing 902aa3c7-94a6-4602-aa98-f7df0ad2981a
+INFO: key_placer.py:532: Removing 48cbecaf-0c0b-4281-85b5-e018e2cf2a2a
+INFO: key_placer.py:532: Removing d30bb3e3-0e0d-47ac-a450-e60373113ca5
+INFO: key_placer.py:532: Removing d8176ef8-fa06-4c68-9f86-750a3e938f6b
+INFO: key_placer.py:532: Removing 554f5e48-0292-4f52-93d6-a474328cc720
+INFO: key_placer.py:532: Removing 5634d003-767b-4c94-a9c0-0d3279e4bc2f
+INFO: key_placer.py:532: Removing ab0a2297-8752-4502-ba9c-6434b2a9d398
+INFO: key_placer.py:532: Removing 5184d996-eeb9-4c22-b4c5-b258b511efba
+INFO: key_placer.py:532: Removing 7f061d30-f700-4c21-8432-dee3675ed888
+INFO: key_placer.py:532: Removing ad8ef7cb-d6a4-407d-a907-9cf153bf81d9
+INFO: key_placer.py:532: Removing b9712c1b-7917-47d4-b21f-195c12eba52b
+INFO: key_placer.py:532: Removing d1bddc8e-24db-420c-a758-c5edef2e9fe3
+INFO: key_placer.py:532: Removing d2e33152-6d97-4c6a-bd32-ef4ec16a43da
+INFO: key_placer.py:532: Removing b052d48f-86b5-44c8-b54d-724786d3d39c
+INFO: key_placer.py:532: Removing b3ebedbb-9c06-4c5e-8f83-76ebfe78aa35
+INFO: key_placer.py:532: Removing 76b7a096-9fbd-483e-88c4-bea695b963b9
+INFO: key_placer.py:532: Removing ea0b3c22-5f39-4ae8-b1a5-2191c2b06fef
+INFO: key_placer.py:532: Removing 94828b33-266a-4c60-99e1-cdf1105db046
+INFO: key_placer.py:532: Removing 108cd5ab-9b2d-491d-9fc6-1e18713649c9
+INFO: key_placer.py:532: Removing e05a67ed-8c6f-47cd-80f5-91bf64b3f6e6
+INFO: key_placer.py:532: Removing 2372c187-53d3-4f81-a822-580810466397
+INFO: key_placer.py:532: Removing 25d0d548-2bfd-4e5e-a4cc-1fd507a43f92
+INFO: key_placer.py:532: Removing ed4ce66d-47a7-442c-91f2-43dc863d1b2a
+INFO: key_placer.py:532: Removing 1c45e2af-c6c2-4f67-ae99-caffefc9b348
+INFO: key_placer.py:532: Removing b99bcc15-be59-4baf-ad8c-53079e13637e
+INFO: key_placer.py:532: Removing d5d3f956-f2cc-4f2e-80b0-3b22ecdbc213
+INFO: key_placer.py:532: Removing e4c1cf73-823f-40d9-811a-774816c469f4
+INFO: key_placer.py:532: Removing 326df663-3e45-40ed-929d-908200784438
+INFO: key_placer.py:532: Removing 8afe4039-199e-4472-8ce9-37aeafbe7502
+INFO: key_placer.py:532: Removing 6bda6547-c202-4538-b2e1-324cca14883b
+INFO: key_placer.py:532: Removing 9065c7e9-ca14-4e11-bedf-a56428870a5a
+INFO: key_placer.py:532: Removing aa605266-9d53-49c4-bd0e-b7fe7a68ce88
+INFO: key_placer.py:532: Removing 42a414d3-fb70-4220-8701-fe7d221dda34
+INFO: key_placer.py:532: Removing 43867bcd-6717-4ad5-a53b-b3c70ddaf302
+INFO: key_placer.py:532: Removing 5f20b5e1-3774-4366-9cfe-dfcd9f0705b4
+INFO: key_placer.py:532: Removing 97d0f8d4-7ee3-4de3-8bd1-a1c9ad457ad4
+INFO: key_placer.py:532: Removing 65ca4ae3-8e32-489c-b03d-63402a8c67bc
+INFO: key_placer.py:532: Removing 3fbc8012-933b-4ede-a9d5-ada1bc59d40b
+INFO: key_placer.py:532: Removing 02cd4bd9-bb09-474d-8816-1a0d70f297ce
+INFO: key_placer.py:532: Removing 0f0b990f-8070-45cd-8b31-e2bbd8969e0e
+INFO: key_placer.py:532: Removing 794849ab-a5f6-4cd7-89b3-e67c82f6c47f
+INFO: key_placer.py:532: Removing 19af6820-6707-44a1-8237-12056a9340ac
+INFO: key_placer.py:532: Removing 09bc2c96-e395-498d-85d0-b5354441935b
+INFO: key_placer.py:532: Removing ef557239-5cff-4f88-9e9d-59f357a3f674
+INFO: key_placer.py:532: Removing eaed71a7-7b7d-429a-aa9d-7d0f4fa45123
